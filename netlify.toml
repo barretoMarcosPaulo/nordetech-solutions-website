@@ -1,3 +1,10 @@
 # Publica somente a pasta do site. docs/ e .cursor/ ficam fora do ar.
 [build]
   publish = "site"
+
+# www.nordetech.com.br abre o mesmo site no endereço principal.
+[[redirects]]
+  from = "https://www.nordetech.com.br/*"
+  to = "https://nordetech.com.br/:splat"
+  status = 301
+  force = true

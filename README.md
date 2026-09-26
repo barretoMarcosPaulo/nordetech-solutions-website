@@ -20,4 +20,4 @@ nordetech-solutions-website/
 └── README.md
 ```
 
-Sem Next.js, backend, banco, npm ou pipeline de build. Pendências de domínio, canônico e dados ainda não confirmados estão em `docs/05-pendencias-e-publicacao.md`.
+Sem Next.js, backend, banco, npm ou pipeline de build. O endereço público previsto é `https://nordetech.com.br`. O apontamento de DNS e as demais pendências estão em `docs/05-pendencias-e-publicacao.md`.
