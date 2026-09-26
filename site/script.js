@@ -75,4 +75,33 @@
     janela.addEventListener("scroll", atualizar);
     atualizar();
   });
+
+  var formulario = document.querySelector("form[name='contato']");
+  if (formulario) {
+    var confirmacao = document.querySelector("[data-envio-ok]");
+    var erro = formulario.querySelector("[data-envio-erro]");
+
+    function mostrarConfirmacao() {
+      formulario.hidden = true;
+      if (confirmacao) confirmacao.hidden = false;
+    }
+
+    formulario.addEventListener("submit", function (evento) {
+      evento.preventDefault();
+      if (erro) erro.hidden = true;
+      var botao = formulario.querySelector("[type='submit']");
+      if (botao) botao.disabled = true;
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(new FormData(formulario)).toString()
+      }).then(function (resposta) {
+        if (!resposta.ok) throw new Error("envio");
+        mostrarConfirmacao();
+      }).catch(function () {
+        if (botao) botao.disabled = false;
+        if (erro) erro.hidden = false;
+      });
+    });
+  }
 })();

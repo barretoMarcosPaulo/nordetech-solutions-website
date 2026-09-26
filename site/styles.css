@@ -340,6 +340,11 @@ html.js .carrossel-controles {
   gap: 2rem;
 }
 
+.envio-erro,
+.envio-ok {
+  margin-top: 1rem;
+}
+
 .campo {
   margin: 0 0 1rem;
   border: 0;

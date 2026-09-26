@@ -178,7 +178,7 @@
           <p>Uma ideia inicial já basta. Conte o contexto do projeto e retornamos para combinar os próximos passos.</p>
           <p>Não envie dados de saúde, documentos de outras pessoas nem informações de participantes da pesquisa.</p>
         </div>
-        <form name="contato" method="POST" action="/obrigado/" data-netlify="true" netlify-honeypot="bot-field">
+        <form name="contato" method="POST" action="/#contato" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contato">
           <p class="campo-antispam" aria-hidden="true">
             <label>Não preencha: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
@@ -209,7 +209,12 @@
             <p id="ajuda-mensagem" class="ajuda">Basta explicar a necessidade em poucas palavras.</p>
           </div>
           <button type="submit">Conversar sobre meu projeto</button>
+          <p class="envio-erro" data-envio-erro hidden>Não foi possível enviar agora. Tente de novo em instantes.</p>
         </form>
+        <div class="envio-ok" data-envio-ok hidden>
+          <h2>Mensagem recebida</h2>
+          <p>Lemos o contexto a partir daqui e retornamos para entender os próximos passos.</p>
+        </div>
       </div>
     </section>
   </main>

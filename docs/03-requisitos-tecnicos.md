@@ -2,7 +2,7 @@
 
 ## Arquitetura
 
-- O Cursor deve criar os arquivos estáticos na pasta `site/`: `index.html`, `styles.css`, `obrigado/index.html`, `_headers` e, se necessário, `assets/`.
+- O Cursor deve criar os arquivos estáticos na pasta `site/`: `index.html`, `styles.css`, `_headers` e, se necessário, `assets/`.
 - HTML semântico + CSS simples; JavaScript só se indispensável para comportamento visível. Zero dependências, npm, build, backend, banco e CMS.
 - Prévia local via servidor HTTP estático. Publicação da **pasta `site/`**, com `index.html` na raiz publicada.
 - Host recomendado: Netlify, pela publicação manual de HTML e Netlify Forms no mesmo painel. A troca de host no futuro exige adaptar o destino do formulário, não a página toda.
@@ -12,7 +12,7 @@
 Formulário HTML nativo renderizado no HTML entregue ao host:
 
 ```html
-<form name="contato" method="POST" action="/obrigado/"
+<form name="contato" method="POST" action="/#contato"
       data-netlify="true" netlify-honeypot="bot-field">
   <p class="campo-antispam" aria-hidden="true">
     <label>Não preencha: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
