@@ -2,7 +2,7 @@
 
 ## Escopo
 
-Uma landing page (`/`) com navegação interna e uma página de confirmação (`/obrigado.html`). Não criar rotas de serviços, blog, área administrativa ou página de case individual nesta fase.
+Uma landing page (`/`) com navegação interna e uma página de confirmação (`/obrigado/`). Não criar rotas de serviços, blog, área administrativa ou página de case individual nesta fase.
 
 ## Seções da landing page, nesta ordem
 
@@ -19,7 +19,7 @@ Uma landing page (`/`) com navegação interna e uma página de confirmação (`
 
 Um único formulário, campos: nome (obrigatório), e-mail (obrigatório), perfil/assunto (obrigatório: empresa, pesquisa ou outro), organização (opcional), descrição (obrigatório). Sem anexos, telefone obrigatório ou questionário longo. CTA principal: **Conversar sobre meu projeto**. Texto auxiliar: basta explicar a necessidade em poucas palavras. Não pedir dados de saúde, documentos pessoais de terceiros ou dados de participantes no primeiro contato.
 
-Após envio aceito pelo provedor, abrir `/obrigado.html`. Uma falha de envio não pode ser apresentada como sucesso. O comportamento de envio real não pode ser comprovado apenas com servidor local.
+Após envio aceito pelo provedor, abrir `/obrigado/`. Uma falha de envio não pode ser apresentada como sucesso. O comportamento de envio real não pode ser comprovado apenas com servidor local.
 
 ## Critérios de conclusão
 

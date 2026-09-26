@@ -2,6 +2,11 @@
 [build]
   publish = "site"
 
+[[redirects]]
+  from = "/obrigado.html"
+  to = "/obrigado/"
+  status = 301
+
 # www.nordetech.com.br abre o mesmo site no endereço principal.
 [[redirects]]
   from = "https://www.nordetech.com.br/*"

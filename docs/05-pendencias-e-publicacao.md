@@ -22,7 +22,7 @@ O JavaScript é local (`site/script.js`): revela seções ao rolar e marca o ite
 2. Em **Forms**, ativar **Enable form detection**. A detecção vale para a próxima publicação; publique novamente se tiver ativado depois da primeira.
 3. Após o Cursor implementar a página, arrastar **somente `site/`** para [Netlify Drop](https://app.netlify.com/drop). Conferir se `index.html` está na raiz publicada. A pasta `site/` não existe neste ZIP de especificações. Se o deploy for pelo Git ou pela CLI a partir da raiz do repositório, o `netlify.toml` já define `publish = "site"`. Esse arquivo não substitui o Drop: arrastar a raiz do repositório publicaria a documentação.
 4. Em **Forms**, confirmar que o formulário `contato` foi detectado. Em **Forms → Submission notifications → Add notification**, escolher e verificar o e-mail que receberá os avisos.
-5. Enviar uma mensagem de teste pelo site **já publicado**. Conferir a tela `obrigado.html`, a entrada em **Forms** e a caixa de e-mail (incluindo spam). Responder ao teste.
+5. Enviar uma mensagem de teste pelo site **já publicado**. Conferir a tela `/obrigado/`, a entrada em **Forms** e a caixa de e-mail (incluindo spam). Responder ao teste.
 6. Verificar em **Forms → Usage** o uso do plano. A documentação atual distingue contas com preços baseados em créditos e planos legados; conferir os limites da conta efetivamente criada.
 7. Se usar domínio próprio, configurar DNS e HTTPS pelo painel e revisar metadados/endereço canônico. Fazer novo envio de teste.
 
