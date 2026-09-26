@@ -1,0 +1,8 @@
+---
+description: Contexto essencial da NordeTech e documentos fonte do site
+alwaysApply: true
+---
+
+Este projeto é a landing page institucional estática da NordeTech Solutions. Leia os documentos adequados em `docs/` antes de decidir conteúdo, visual ou arquitetura. Para mensagens comerciais, use `docs/01-contexto-de-negocio.md`, `docs/02-requisitos-do-produto.md` e `docs/04-conteudo-e-direcao-visual.md`. Para implementação e publicação, use `docs/03-requisitos-tecnicos.md` e `docs/05-pendencias-e-publicacao.md`.
+
+Nunca invente clientes, cases, números, parceiros, credenciamentos, certificações ou relações institucionais. Indique pendências documentadas quando faltar informação. Publique somente a pasta `site/`.

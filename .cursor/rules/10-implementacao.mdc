@@ -1,0 +1,7 @@
+---
+description: Padrões para HTML e CSS da landing page estática e formulário Netlify
+globs: "site/**/*.{html,css,js}"
+alwaysApply: false
+---
+
+Siga `docs/03-requisitos-tecnicos.md`. Crie HTML/CSS estáticos publicáveis sem build. Use JavaScript apenas quando trouxer benefício necessário; não inclua framework, backend, banco, CMS ou pacotes npm. Implemente o formulário HTML Netlify, o honeypot, os limites dos campos, a página de sucesso e a política de segurança em `site/_headers`. Se adicionar recursos que a política bloqueie, reavalie e teste cada exceção; não libere origens amplas. Use HTML semântico, labels de formulário, foco visível, layout responsivo e textos alternativos adequados. Não coloque dados ou documentos internos na pasta `site/`.

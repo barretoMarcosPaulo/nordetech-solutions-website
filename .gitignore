@@ -1,0 +1,32 @@
+# Segredos e ambiente local
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+**/secrets.json
+
+# Estado local da Netlify CLI (não é a configuração de publicação)
+.netlify/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependências e caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log

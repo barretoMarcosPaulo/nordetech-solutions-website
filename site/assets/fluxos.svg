@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" aria-hidden="true">
+  <rect width="480" height="360" fill="none"/>
+  <g fill="none" stroke="#7dcec4" stroke-width="1.5">
+    <path d="M48 72h88M168 72h64M264 72h72"/>
+    <path d="M72 148h120M224 148h56M312 148h96"/>
+    <path d="M40 228h72M144 228h140M316 228h88"/>
+    <path d="M96 300h160M288 300h80"/>
+    <path d="M136 72v76M248 148v80M180 228v72M336 72v76M336 228v72"/>
+  </g>
+  <g fill="#f4f1eb">
+    <rect x="136" y="56" width="32" height="32"/>
+    <rect x="336" y="56" width="48" height="32"/>
+    <rect x="192" y="132" width="32" height="32"/>
+    <rect x="280" y="132" width="32" height="32"/>
+    <rect x="112" y="212" width="32" height="32"/>
+    <rect x="284" y="212" width="32" height="32"/>
+    <rect x="256" y="284" width="32" height="32"/>
+  </g>
+  <g fill="#1f8f84">
+    <rect x="48" y="56" width="16" height="16"/>
+    <rect x="408" y="132" width="24" height="16"/>
+    <rect x="40" y="212" width="16" height="16"/>
+    <rect x="404" y="212" width="16" height="16"/>
+    <rect x="96" y="284" width="16" height="16"/>
+  </g>
+</svg>
