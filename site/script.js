@@ -82,8 +82,12 @@
     var erro = formulario.querySelector("[data-envio-erro]");
 
     function mostrarConfirmacao() {
-      formulario.hidden = true;
-      if (confirmacao) confirmacao.hidden = false;
+      formulario.classList.add("enviado");
+      formulario.querySelectorAll("input, textarea, button").forEach(function (campo) {
+        if (campo.name === "form-name" || campo.name === "bot-field") return;
+        campo.disabled = true;
+      });
+      if (confirmacao) confirmacao.setAttribute("aria-hidden", "false");
     }
 
     formulario.addEventListener("submit", function (evento) {
@@ -91,12 +95,14 @@
       if (erro) erro.hidden = true;
       var botao = formulario.querySelector("[type='submit']");
       if (botao) botao.disabled = true;
+      var corpo = new URLSearchParams(new FormData(formulario));
+      corpo.set("form-name", "contato");
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(new FormData(formulario)).toString()
+        body: corpo.toString()
       }).then(function (resposta) {
-        if (!resposta.ok) throw new Error("envio");
+        if (resposta.status !== 200 && resposta.status !== 302) throw new Error("envio");
         mostrarConfirmacao();
       }).catch(function () {
         if (botao) botao.disabled = false;

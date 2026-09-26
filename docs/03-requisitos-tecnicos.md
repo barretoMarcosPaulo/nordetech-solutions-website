@@ -12,7 +12,7 @@
 Formulário HTML nativo renderizado no HTML entregue ao host:
 
 ```html
-<form name="contato" method="POST" action="/#contato"
+<form name="contato" method="POST" action="/"
       data-netlify="true" netlify-honeypot="bot-field">
   <p class="campo-antispam" aria-hidden="true">
     <label>Não preencha: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
