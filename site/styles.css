@@ -135,6 +135,27 @@ a {
   padding-block: 0.85rem;
 }
 
+.rodape-interno {
+  align-items: flex-start;
+  padding-block: 1.5rem 1.75rem;
+}
+
+.rodape-marca {
+  margin-bottom: 0.65rem;
+}
+
+.rodape-empresa {
+  margin: 0;
+  font-style: normal;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.rodape-empresa a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .marca {
   display: inline-flex;
   align-items: center;
@@ -456,7 +477,6 @@ textarea {
 }
 
 .rodape {
-  padding-bottom: 1.5rem;
   color: var(--claro);
 }
 
