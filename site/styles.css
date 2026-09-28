@@ -361,6 +361,36 @@ html.js .carrossel-controles {
   gap: 2rem;
 }
 
+.aviso-envio {
+  margin: 0.85rem 0 0;
+}
+
+.aviso {
+  margin: 1.75rem 0 0;
+  border-top: 1px solid var(--linha);
+}
+
+.aviso div {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--linha);
+}
+
+.aviso dt {
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.aviso dd {
+  margin: 0;
+}
+
+.aviso + .nota {
+  margin: 1.25rem 0 0;
+  font-size: 0.92rem;
+}
+
 .envio-erro {
   margin-top: 1rem;
 }
@@ -402,6 +432,7 @@ form.enviado .envio-ok > div {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea,
 button,
 .opcoes label {
@@ -445,6 +476,7 @@ form.enviado button:disabled {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
   width: 100%;
   border: 1px solid var(--linha);
@@ -505,6 +537,12 @@ html.js .revelar.visivel {
     align-items: start;
   }
 
+  .aviso div {
+    grid-template-columns: 9.5rem 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+  }
+
   .lista {
     grid-template-columns: 1fr 1fr;
   }
@@ -533,6 +571,7 @@ html.js .revelar.visivel {
   html.js .revelar.visivel,
   input[type="text"],
   input[type="email"],
+  input[type="tel"],
   textarea,
   button,
   .opcoes label {

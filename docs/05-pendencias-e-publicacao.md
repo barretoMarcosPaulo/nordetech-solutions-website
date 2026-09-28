@@ -15,7 +15,7 @@ O JavaScript é local (`site/script.js`): revela seções ao rolar e marca o ite
 - [ ] Validar nomes de empresas, a natureza de cada vínculo e a permissão de divulgação/logotipos.
 - [ ] Fornecer ao menos um case com autorização, escopo, papel real e resultados comprováveis; preferencialmente um da área de pesquisa.
 - [ ] Confirmar se Fiocruz/Fiotec/Fiape podem ser mencionadas e de que modo, com suporte documental. Não declarar credenciamento sem comprovação.
-- [ ] Revisar o texto de privacidade. O canal para solicitações sobre os dados de contato é contato@nordetech.com.br. Se for publicar uma política, não usar texto fictício ou incompleto.
+- [x] Aviso de privacidade na seção `#privacidade`: controlador Norde Tech Solutions Ltda, dados do formulário, finalidade de resposta, guarda de até 12 meses após o último retorno, Netlify nos Estados Unidos e canal contato@nordetech.com.br. A exclusão nesse prazo é rotina operacional, no painel e no e-mail.
 
 ## Ativar recebimento de contatos (Netlify)
 

@@ -225,13 +225,53 @@
             <input id="organizacao" name="organizacao" type="text" autocomplete="organization" maxlength="160">
           </div>
           <div class="campo">
+            <label for="whatsapp">WhatsApp <span class="opcional">(opcional)</span></label>
+            <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="20">
+          </div>
+          <div class="campo">
             <label for="mensagem">Descrição <span class="obrigatorio">(obrigatório)</span></label>
             <textarea id="mensagem" name="mensagem" required maxlength="2000" rows="6" aria-describedby="ajuda-mensagem"></textarea>
             <p id="ajuda-mensagem" class="ajuda">Basta explicar a necessidade em poucas palavras.</p>
           </div>
           <button type="submit">Conversar sobre meu projeto</button>
+          <p class="ajuda aviso-envio">Ao enviar, você pede um retorno sobre o projeto. <a href="#privacidade">Dados do formulário</a>.</p>
           <p class="envio-erro" data-envio-erro hidden>Não foi possível enviar agora. Tente de novo em instantes.</p>
         </form>
+      </div>
+    </section>
+
+    <section class="secao" id="privacidade" aria-labelledby="titulo-privacidade">
+      <div class="envoltorio revelar">
+        <p class="sobretitulo">Privacidade</p>
+        <h2 id="titulo-privacidade">Dados do formulário.</h2>
+        <p class="intro">O formulário serve para iniciar a conversa sobre um projeto. O envio não fecha contrato.</p>
+        <dl class="aviso">
+          <div>
+            <dt>Controlador</dt>
+            <dd>Norde Tech Solutions Ltda, CNPJ 50.355.235/0001-74, Teresina, Piauí.</dd>
+          </div>
+          <div>
+            <dt>Dados</dt>
+            <dd>Nome, e-mail, perfil e descrição. Organização e WhatsApp, quando informados. O número de IP do envio, registrado pela hospedagem.</dd>
+          </div>
+          <div>
+            <dt>Finalidade</dt>
+            <dd>Ler o pedido e responder sobre os próximos passos do projeto.</dd>
+          </div>
+          <div>
+            <dt>Prazo</dt>
+            <dd>Durante a conversa e por até 12 meses após o último retorno. Depois disso, a mensagem é apagada no painel e no e-mail.</dd>
+          </div>
+          <div>
+            <dt>Onde fica</dt>
+            <dd>Na Netlify, que hospeda o site e o formulário nos Estados Unidos, e numa cópia enviada a <a href="mailto:contato@nordetech.com.br">contato@nordetech.com.br</a>.</dd>
+          </div>
+          <div>
+            <dt>Pedidos</dt>
+            <dd>Acesso, correção ou exclusão pelo mesmo e-mail.</dd>
+          </div>
+        </dl>
+        <p class="nota">Não há cookies de análise nem de publicidade nesta página.</p>
       </div>
     </section>
   </main>
@@ -252,6 +292,7 @@
           <li><a href="#entregas">O que construímos</a></li>
           <li><a href="#entrega">Entrega</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li><a href="#privacidade">Privacidade</a></li>
         </ul>
       </nav>
     </div>

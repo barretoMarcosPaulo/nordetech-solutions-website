@@ -17,7 +17,7 @@ Uma landing page (`/`) com navegação interna. A confirmação do contato apare
 
 ## Conversão e formulário
 
-Um único formulário, campos: nome (obrigatório), e-mail (obrigatório), perfil/assunto (obrigatório: empresa, pesquisa ou outro), organização (opcional), descrição (obrigatório). Sem anexos, telefone obrigatório ou questionário longo. CTA principal: **Conversar sobre meu projeto**. Texto auxiliar: basta explicar a necessidade em poucas palavras. Não pedir dados de saúde, documentos pessoais de terceiros ou dados de participantes no primeiro contato.
+Um único formulário, campos: nome (obrigatório), e-mail (obrigatório), perfil/assunto (obrigatório: empresa, pesquisa ou outro), organização (opcional), WhatsApp (opcional), descrição (obrigatório). Sem anexos, telefone obrigatório ou questionário longo. CTA principal: **Conversar sobre meu projeto**. Texto auxiliar: basta explicar a necessidade em poucas palavras. Não pedir dados de saúde, documentos pessoais de terceiros ou dados de participantes no primeiro contato.
 
 Após envio aceito pelo provedor, a confirmação permanece na seção de contato. Uma falha de envio não pode ser apresentada como sucesso. O comportamento de envio real não pode ser comprovado apenas com servidor local.
 
