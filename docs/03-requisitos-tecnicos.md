@@ -27,11 +27,18 @@ O host detecta formulários no HTML publicado; não converter o formulário em c
 
 ## SEO e qualidade
 
-- `html lang="pt-BR"`, um `h1`, estrutura lógica `h2`, title e meta description específicos.
+Práticas do [guia inicial de SEO do Google](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br) que cabem nesta página única:
+
+- `html lang="pt-BR"`, um `h1`, estrutura lógica `h2`, title e meta description específicos da página. Sem meta keywords: o Google não usa essa tag, e repetir a frase de busca no texto é enchimento.
+- Canônico `https://nordetech.com.br/`. O `www` redireciona para esse endereço, para não haver duas cópias.
+- `site/robots.txt` libera a página, o CSS e o JavaScript. `site/sitemap.xml` lista só a URL canônica e as capturas dos cases, com a mesma legenda do `alt`.
+- Texto alternativo nas imagens informativas, ao lado do case que elas ilustram. A marca decorativa fica com `alt` vazio.
+- Links externos que corroboram um case usam texto que diz o destino (edital, site do aplicativo, página do observatório). São fontes confiáveis, sem `nofollow`.
+- Dados estruturados só com fatos já publicados: nome do site, serviço, razão social, CNPJ, e-mail, cidade e logo. Sem avaliação, horário ou perfil social inventado.
 - CSS responsivo; fonte de sistema ou hospedada localmente; layout sem deslocamentos marcantes.
-- Links de âncora corretos, texto alternativo em imagens informativas, labels explícitos, foco visível e contraste.
+- Links de âncora corretos, labels explícitos, foco visível e contraste.
 - Não bloquear a página inteira se JavaScript estiver indisponível.
-- Não criar páginas artificiais para palavras-chave nem declarar relação oficial com instituições para ranquear.
+- Não criar páginas artificiais para palavras-chave nem declarar relação oficial com instituições para ranquear. O Search Console continua sendo passo do proprietário, em `docs/05-pendencias-e-publicacao.md`.
 
 ## Dados e publicação
 

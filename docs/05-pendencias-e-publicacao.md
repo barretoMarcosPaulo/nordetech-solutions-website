@@ -29,7 +29,7 @@ O JavaScript é local (`site/script.js`): revela seções ao rolar e marca o ite
 
 ## Indexação no Google
 
-A prévia local não é indexada. `site/robots.txt` e `site/sitemap.xml` passam a valer depois da publicação. O sitemap tem uma URL: `https://nordetech.com.br/`.
+A prévia local não é indexada. `site/robots.txt` e `site/sitemap.xml` passam a valer depois da publicação. O sitemap tem a URL `https://nordetech.com.br/` e as capturas dos cases, para o Google encontrar as imagens junto do texto.
 
 1. Abrir o [Google Search Console](https://search.google.com/search-console) e adicionar a propriedade `https://nordetech.com.br/`.
 2. Verificar pelo arquivo HTML ou pela metatag que o Console fornecer. Esse código entra no repositório só quando o valor for colado.

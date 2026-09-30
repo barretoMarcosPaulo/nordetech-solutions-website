@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://nordetech.com.br/</loc>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/dandara-inicio.png</image:loc>
+      <image:caption>Tela inicial do Caminhos de Dandara, com áudio da guia e aviso de que o aplicativo funciona sem internet.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/dandara-jornada.png</image:loc>
+      <image:caption>Pergunta da jornada sobre a importância da terra da comunidade, com opção de ouvir o áudio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/dandara-biblioteca.png</image:loc>
+      <image:caption>Biblioteca do aplicativo, com explicações em texto e áudio sobre território e justiça climática.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/vacina-inicio.jpg</image:loc>
+      <image:caption>Tela inicial do VacinAção, com acesso a vacinas, cartão de vacina, calendário vacinal e notícias falsas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/vacina-proximas.jpg</image:loc>
+      <image:caption>Cartão de vacina do VacinAção na aba Próximas, com doses e datas previstas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/vacina-aplicadas.jpg</image:loc>
+      <image:caption>Cartão de vacina do VacinAção na aba Aplicadas, com o detalhe de uma dose já registrada.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/opepi-educacionais.jpg</image:loc>
+      <image:caption>Página de dados educacionais do Opepi, com educação básica, condições de oferta, educação superior e indicadores.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/opepi-matriculas.jpg</image:loc>
+      <image:caption>Painel de matrículas da educação básica no Opepi, com filtros e a série histórica do Piauí.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nordetech.com.br/assets/cases/opepi-financeiros.jpg</image:loc>
+      <image:caption>Página de dados financeiros do Opepi, com consultas por município, dados estaduais e indicadores.</image:caption>
+    </image:image>
   </url>
 </urlset>
