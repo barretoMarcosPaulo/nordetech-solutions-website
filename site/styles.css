@@ -395,62 +395,55 @@ html.js .carrossel-controles {
   margin-top: 1rem;
 }
 
+.envio-ok[hidden] {
+  display: none;
+}
+
 .envio-ok {
   display: grid;
-  grid-template-rows: 0fr;
-  opacity: 0;
+  align-content: center;
+  gap: 0.75rem;
+  min-height: 18rem;
   margin: 0;
-  transition: grid-template-rows 0.5s ease, opacity 0.45s ease, margin 0.5s ease;
-}
-
-.envio-ok > div {
-  overflow: hidden;
-}
-
-.envio-ok p {
-  margin: 0;
-}
-
-.envio-ok-titulo {
-  margin-bottom: 0.35rem;
-  color: var(--turquesa);
-  font-weight: 650;
-}
-
-form.enviado .envio-ok {
-  grid-template-rows: 1fr;
-  opacity: 1;
-  margin-bottom: 1.25rem;
-}
-
-form.enviado .envio-ok > div {
-  padding: 1rem 1.1rem;
-  border: 1px solid rgba(14, 107, 100, 0.2);
+  padding: 2rem 1.5rem;
+  border: 1px solid rgba(14, 107, 100, 0.28);
   border-radius: 0.85rem;
   background: #e5f3f1;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea,
-button,
-.opcoes label {
-  transition: background-color 0.45s ease, border-color 0.45s ease, color 0.45s ease, opacity 0.45s ease;
+.envio-ok p {
+  margin: 0;
+  max-width: 36ch;
 }
 
-form.enviado input:disabled,
-form.enviado textarea:disabled {
-  opacity: 1;
-  color: var(--tinta);
-  -webkit-text-fill-color: var(--tinta);
-  background: #eef3f4;
-  border-color: transparent;
+.envio-ok-titulo {
+  color: var(--petroleo);
+  font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+  font-weight: 560;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
 }
 
-form.enviado button:disabled {
-  opacity: 0.55;
-  cursor: default;
+.envio-ok:focus {
+  outline: 2px solid var(--turquesa);
+  outline-offset: 3px;
+}
+
+.campo-erro {
+  margin: 0.4rem 0 0;
+  color: #7a2e2e;
+  font-size: 0.92rem;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border-color: #7a2e2e;
+  background: #fbf6f6;
+}
+
+fieldset[aria-invalid="true"] {
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px #7a2e2e;
 }
 
 .campo {
@@ -579,8 +572,4 @@ html.js .revelar.visivel {
     transition: none;
   }
 
-  .envio-ok,
-  form.enviado .envio-ok {
-    transition: none;
-  }
 }

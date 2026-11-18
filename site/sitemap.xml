@@ -28,16 +28,12 @@
       <image:caption>Cartão de vacina do VacinAção na aba Aplicadas, com o detalhe de uma dose já registrada.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://nordetech.com.br/assets/cases/opepi-educacionais.jpg</image:loc>
-      <image:caption>Página de dados educacionais do Opepi, com educação básica, condições de oferta, educação superior e indicadores.</image:caption>
+      <image:loc>https://nordetech.com.br/assets/cases/vacina-site-inicio.jpg</image:loc>
+      <image:caption>Página inicial do site do VacinAção, com o título Combate à Hesitação Vacinal e o acesso a vacinas, crianças, calendário vacinal e notícias falsas.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://nordetech.com.br/assets/cases/opepi-matriculas.jpg</image:loc>
-      <image:caption>Painel de matrículas da educação básica no Opepi, com filtros e a série histórica do Piauí.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://nordetech.com.br/assets/cases/opepi-financeiros.jpg</image:loc>
-      <image:caption>Página de dados financeiros do Opepi, com consultas por município, dados estaduais e indicadores.</image:caption>
+      <image:loc>https://nordetech.com.br/assets/cases/vacina-site-sobre.jpg</image:loc>
+      <image:caption>Seção Sobre o VacinAção no site, com o vínculo à pesquisa da UFPI, o combate à desinformação e o apoio a famílias e profissionais.</image:caption>
     </image:image>
   </url>
 </urlset>

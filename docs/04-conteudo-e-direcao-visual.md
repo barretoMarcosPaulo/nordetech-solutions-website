@@ -4,15 +4,15 @@
 
 Tom sóbrio, direto e humano. Começar com a necessidade do visitante e mostrar capacidade de executar. Para pesquisa, usar termos como projeto, equipe, coleta, acompanhamento, indicadores e entrega. Tecnologias específicas podem aparecer em proposta técnica, não no primeiro parágrafo.
 
-### Direção de copy da vertical de pesquisa
+### Direção de copy
 
-A frase de busca é **desenvolvimento de sistema para projeto de pesquisa**, com coleta de dados, aplicativo de campo, banco de dados e painel de acompanhamento. “Tecnologia para Pesquisa” permanece como nome da vertical, no sobretítulo e no rodapé, não como título principal. Evitar “tecnologia para pesquisas” no sentido de pesquisa de opinião.
+A especialidade publicada é desenvolvimento de aplicativos, sistemas web, páginas web, integrações e banco de dados. A frase de busca da página é **aplicativos, sistemas web e páginas**. Pesquisa continua nos cases já autorizados e no perfil do formulário, não como o único assunto da abertura.
 
-**Hero** — `A proposta tecnológica do seu projeto se torna um sistema em uso.` A entrega do escopo combinado é garantida. O orçamento se ajusta ao recurso que o projeto já tem liberado.
+**Hero** — `O software da sua operação entra em uso.` A chamada nomeia os cinco caminhos. A entrega do escopo combinado é garantida. A especificação técnica pode chegar depois.
 
-**Problema** — `A proposta descreve o sistema. Ainda falta quem o construa.` A especificação técnica pode chegar depois.
+**Problema** — `A necessidade está clara. Ainda falta quem construa.` Aplicativo, sistema web, página, integração ou banco de dados.
 
-**O que construímos** — `O sistema que o projeto precisar.` Coleta de dados, aplicativo de campo, banco de dados, painel de acompanhamento, portal e integração. São caminhos de desenvolvimento, não projetos realizados.
+**O que construímos** — `O que o trabalho precisar.` Aplicativos, sistemas web, páginas web, integrações e banco de dados. São caminhos de desenvolvimento, não projetos realizados.
 
 **Entrega** — `Garantimos a entrega do que combinamos.` Escopo e critérios de aceite ficam escritos antes. A garantia não cobre resultado científico, aprovação de edital, prazo de retorno ou reembolso.
 
@@ -26,9 +26,9 @@ Modelo editorial por case: nome autorizado; contexto e instituição se divulgá
 
 O case publicado é o aplicativo **Caminhos de Dandara**, produto final gamificado do projeto “Vigilância popular em saúde: mulheridades quilombolas piauienses no enfrentamento ao racismo ambiental e às emergências climáticas”, da 2ª chamada do edital Territórios Sustentáveis e Saudáveis na Atenção à Saúde (Programa Inova Fiocruz). Financiamento da Fiocruz, parceria com a Fiotec e a Universidade Federal do Piauí, desenvolvimento do aplicativo pela NordeTech. Sem números de uso ou resultado.
 
-O segundo case é o aplicativo **VacinAção** (vacinacao.app.br): projeto da Universidade Federal do Piauí sobre imunização infantil e hesitação vacinal, 1º lugar no 27º CBCENF na categoria Inovação, tecnologia e empreendedorismo, desenvolvimento do aplicativo pela NordeTech. As telas publicadas são as capturas oficiais da ficha na Google Play.
+O aplicativo **VacinAção** e o **site do VacinAção** (vacinacao.app.br) são dois cases. O projeto é da Universidade Federal do Piauí, sobre imunização infantil e hesitação vacinal, 1º lugar no 27º CBCENF na categoria Inovação, tecnologia e empreendedorismo. A NordeTech desenvolveu o aplicativo e, à parte, o site. As telas do aplicativo são as capturas oficiais da ficha na Google Play. As telas do site são a página inicial e a seção Sobre, capturadas na página pública. Sem republicar os contadores do site como métrica da NordeTech.
 
-O terceiro case é o **Opepi** (opepi.pi.gov.br): Observatório da Política Educacional Piauiense, painéis de dados educacionais e financeiros do estado e dos 224 municípios. Ação da UFPI, da UESPI e do IFPI, com o Nuppege. A página pública credita o desenvolvimento à UFPI. O papel da NordeTech é consultoria para a evolução da plataforma. As telas são capturas do site público (dados educacionais, painel de matrículas e dados financeiros). Sem métricas de uso inventadas.
+O **Opepi** saiu da seção de cases. O relato permanece fora da página: Observatório da Política Educacional Piauiense, ação da UFPI, da UESPI e do IFPI, com o Nuppege; o desenvolvimento público é da UFPI e o papel da NordeTech é consultoria. Sem métricas.
 
 O relato sobre integração VTEX e estoque no Grupo Mateus continua candidato, mediante validação.
 
